@@ -1,0 +1,20 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.back {
+    width: 500px;
+    height: 100px;
+    border: 1px solid red;
+    background: burlywood;
+    padding: 100px 50px;
+}
+
+.text {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
