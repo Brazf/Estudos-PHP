@@ -1,25 +1,25 @@
 <?php
-    $frase = $_POST['frase'];
+    $frase = $_POST['frase']." ";
     $palavra1 = $_POST['palavra1'];
     $palavra2 = $_POST['palavra2'];
-    $frase_nova = " ";
-    $palavrateste = " ";
-    $cont = 0; 
+    $fraseFinal = '';
+    $nametemp = '';
+
     for($i = 0; $i < strlen($frase); $i++){
-        if($frase[$i] != " "){
-            $palavrateste .= $frase[$i];
+        if($frase[$i] != ' '){
+            $nametemp .= $frase[$i];
         }
         else{
-            if($palavrateste == $palavra1){
-                $
+            if($nametemp == $palavra1){
+                echo $palavra2;
+                echo ' ';
+                $nametemp = '';
             }
             else{
-                $palavrateste = "error!";
+                echo $nametemp;
+                echo ' ';
+                $nametemp = '';
             }
         }
-    }    
-    
-    echo $palavrateste;
-    echo $frase_nova;        
-
+    }
 ?>
