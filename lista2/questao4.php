@@ -7,5 +7,15 @@ de comprimento e 4m de altura. Faça um programa que informe quantas placas de v
 serão necessárias para revestir o muro
 
 -->
+<?php
 
+    $area_muro = 100*4;
+    $area_placa = pow(2,2);
+
+    echo "Área do muro: $area_muro m². <br>";
+    echo "Área da placa: $area_placa m². <br>";
+
+    echo "Total de placas necessárias: ".($area_muro/$area_placa); 
+
+?>
 
