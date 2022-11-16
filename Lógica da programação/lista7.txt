@@ -1,0 +1,20 @@
+Fazer um programa que:
+
+
+a) Gere um array com trinta elementos preenchidos de forma aleatória com números
+inteiros entre 10 e 99.
+
+b) Exiba o array gerado
+
+c) Exiba o array gerado ordenado
+
+d) Exiba um array apenas com os números pares gerados
+
+e) Exiba um array apenas com os números pares gerados e ordenados
+
+f) Exiba um array apenas com os números ímpares gerados
+
+g) Exiba um array apenas com os números ímpares gerados e ordenados
+
+
+PS: Não será aceito função de ordenação que já existe no python. O programador deverá escrever o código de ordenação.

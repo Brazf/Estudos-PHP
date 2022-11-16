@@ -1,0 +1,21 @@
+1 - Fazer um programa que
+Crie uma função que receba como parâmetro de entrada a base e o expoente de uma potência. 
+Leia a base e o expoente de N potências e informe o resultado das mesmas.
+
+
+2 - Fazer um programa que
+Gere 10 valores inteiros positivos aleatórios entre 1 e 30.
+Exiba o fatorial de cada valor gerado
+
+
+3 - Fazer um programa que
+Leia 5 trios de valores inteiros positivos correspondentes aos lados de uma figura.
+Informe quantos formam um triângulo e o tipo de triângulo formado
+
+
+Obs Para que seja possível formar um triângulo é necessário que a soma de dois lados seja superior ao valor do terceiro lado.
+
+4 - Fazer um programa que
+Leia um valor inteiro positivo.
+Exiba a quantidade de palpites da mega-sena referentes ao valor lido.
+PS Utilize função para todas as atividades
